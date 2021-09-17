@@ -82,7 +82,7 @@ Drawer {
                 for (var i = 0; i < channels_list.length; i++)
                 {
                     append({title: channels_list[i][1],
-                            avatar_url: "recourses/avatars/" + channels_list[i][1] + ".jpg"})
+                            avatar_url: "../recourses/avatars/" + channels_list[i][1] + ".jpg"})
                 }
             }
         }

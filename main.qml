@@ -1,6 +1,7 @@
 import QtQuick 2.5
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.2
+import "./QmlModules" as QmlModules
  
 ApplicationWindow {
     id: mainWindow
@@ -29,7 +30,7 @@ ApplicationWindow {
         ch.video_parsing()
     }
 
-    MainDrawer {
+    QmlModules.MainDrawer {
         id: drawer
         width: parent.width / 2
         height: parent.height
@@ -39,7 +40,7 @@ ApplicationWindow {
         }
     }
 
-    ChannelPage {
+    QmlModules.ChannelPage {
         id: youtube_page
         anchors.fill: parent
     }

@@ -13,7 +13,7 @@ Page {
             videos_model.remove(0)
         }
         videos.model.Component.onCompleted()
-        header.source = "recourses/headers/" + ch.get_channel_name + ".jpg"
+        header.source = "../recourses/headers/" + ch.get_channel_name + ".jpg"
     }
 
     ListModel {
@@ -38,7 +38,7 @@ Page {
     header: Image {
         id: header
         sourceSize.width: parent.width
-        source: "recourses/headers/Kuplinov ► Play.jpg"
+        source: "../recourses/headers/Kuplinov ► Play.jpg"
     }
 
     Component {
